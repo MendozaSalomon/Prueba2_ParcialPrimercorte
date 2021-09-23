@@ -32,6 +32,8 @@ namespace Prueba2_ParcialPrimercorte
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Modulo_1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Modulo_2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -62,11 +64,33 @@ namespace Prueba2_ParcialPrimercorte
             this.Modulo_1.UseVisualStyleBackColor = true;
             this.Modulo_1.Click += new System.EventHandler(this.Modulo_1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(208, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Modulo 4";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Modulo_2
+            // 
+            this.Modulo_2.Location = new System.Drawing.Point(519, 142);
+            this.Modulo_2.Name = "Modulo_2";
+            this.Modulo_2.Size = new System.Drawing.Size(68, 28);
+            this.Modulo_2.TabIndex = 4;
+            this.Modulo_2.Text = "Modulo 2";
+            this.Modulo_2.UseVisualStyleBackColor = true;
+            this.Modulo_2.Click += new System.EventHandler(this.Modulo_2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Modulo_2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Modulo_1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -82,6 +106,8 @@ namespace Prueba2_ParcialPrimercorte
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Modulo_1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Modulo_2;
     }
 }
 
