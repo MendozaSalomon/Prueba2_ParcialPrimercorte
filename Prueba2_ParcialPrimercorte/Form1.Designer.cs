@@ -34,6 +34,7 @@ namespace Prueba2_ParcialPrimercorte
             this.Modulo_1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.Modulo_2 = new System.Windows.Forms.Button();
+            this.Modulo_3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,7 +67,7 @@ namespace Prueba2_ParcialPrimercorte
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(208, 233);
+            this.button1.Location = new System.Drawing.Point(519, 227);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -84,11 +85,22 @@ namespace Prueba2_ParcialPrimercorte
             this.Modulo_2.UseVisualStyleBackColor = true;
             this.Modulo_2.Click += new System.EventHandler(this.Modulo_2_Click);
             // 
+            // Modulo_3
+            // 
+            this.Modulo_3.Location = new System.Drawing.Point(208, 227);
+            this.Modulo_3.Name = "Modulo_3";
+            this.Modulo_3.Size = new System.Drawing.Size(75, 23);
+            this.Modulo_3.TabIndex = 5;
+            this.Modulo_3.Text = "Modulo 3";
+            this.Modulo_3.UseVisualStyleBackColor = true;
+            this.Modulo_3.Click += new System.EventHandler(this.Modulo_3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Modulo_3);
             this.Controls.Add(this.Modulo_2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Modulo_1);
@@ -108,6 +120,7 @@ namespace Prueba2_ParcialPrimercorte
         private System.Windows.Forms.Button Modulo_1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Modulo_2;
+        private System.Windows.Forms.Button Modulo_3;
     }
 }
 

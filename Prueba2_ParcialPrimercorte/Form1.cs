@@ -34,5 +34,11 @@ namespace Prueba2_ParcialPrimercorte
             Modulo2 Prueba2 = new Modulo2();
             Prueba2.Show();
         }
+
+        private void Modulo_3_Click(object sender, EventArgs e)
+        {
+            Modulo_3 Prueba3 = new Modulo_3();
+            Prueba3.Show();
+        }
     }
 }
