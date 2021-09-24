@@ -65,7 +65,7 @@ namespace Prueba2_ParcialPrimercorte.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _1 {
             get {
-                object obj = ResourceManager.GetObject("1", resourceCulture);
+                object obj = ResourceManager.GetObject("_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace Prueba2_ParcialPrimercorte.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _15 {
             get {
-                object obj = ResourceManager.GetObject("15", resourceCulture);
+                object obj = ResourceManager.GetObject("_15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,7 +105,7 @@ namespace Prueba2_ParcialPrimercorte.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap nota_papel_sobre_fondo_memphis_53876_99285 {
             get {
-                object obj = ResourceManager.GetObject("nota-papel-sobre-fondo-memphis_53876-99285", resourceCulture);
+                object obj = ResourceManager.GetObject("nota_papel_sobre_fondo_memphis_53876_99285", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
