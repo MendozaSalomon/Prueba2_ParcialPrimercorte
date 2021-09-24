@@ -17,7 +17,7 @@ namespace Prueba2_ParcialPrimercorte
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             int n = Convert.ToInt32(textBox1.Text.Length);
             String exp;
@@ -36,11 +36,6 @@ namespace Prueba2_ParcialPrimercorte
                 }
             };
             textBox2.Text = (pangrama ? "SI" : "NO");
-        }
-
-        private void Modulo_5_Load(object sender, EventArgs e)
-        {
-
         }
     }
     

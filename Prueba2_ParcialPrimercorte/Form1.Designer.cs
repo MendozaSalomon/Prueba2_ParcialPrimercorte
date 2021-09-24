@@ -99,7 +99,7 @@ namespace Prueba2_ParcialPrimercorte
             // 
             // Modulo_5
             // 
-            this.Modulo_5.Location = new System.Drawing.Point(220, 310);
+            this.Modulo_5.Location = new System.Drawing.Point(220, 318);
             this.Modulo_5.Name = "Modulo_5";
             this.Modulo_5.Size = new System.Drawing.Size(75, 23);
             this.Modulo_5.TabIndex = 6;

@@ -45,6 +45,7 @@ namespace Prueba2_ParcialPrimercorte
             this.button1.TabIndex = 0;
             this.button1.Text = "Verificar Pangrama\r\n";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label1
             // 
@@ -93,7 +94,6 @@ namespace Prueba2_ParcialPrimercorte
             this.Controls.Add(this.button1);
             this.Name = "Modulo_5";
             this.Text = "Modulo_5";
-            this.Load += new System.EventHandler(this.Modulo_5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
