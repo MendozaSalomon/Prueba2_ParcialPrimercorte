@@ -35,6 +35,7 @@ namespace Prueba2_ParcialPrimercorte
             this.button1 = new System.Windows.Forms.Button();
             this.Modulo_2 = new System.Windows.Forms.Button();
             this.Modulo_3 = new System.Windows.Forms.Button();
+            this.Modulo_5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -95,11 +96,22 @@ namespace Prueba2_ParcialPrimercorte
             this.Modulo_3.UseVisualStyleBackColor = true;
             this.Modulo_3.Click += new System.EventHandler(this.Modulo_3_Click);
             // 
+            // Modulo_5
+            // 
+            this.Modulo_5.Location = new System.Drawing.Point(208, 310);
+            this.Modulo_5.Name = "Modulo_5";
+            this.Modulo_5.Size = new System.Drawing.Size(75, 23);
+            this.Modulo_5.TabIndex = 6;
+            this.Modulo_5.Text = "Modulo 5";
+            this.Modulo_5.UseVisualStyleBackColor = true;
+            this.Modulo_5.Click += new System.EventHandler(this.Modulo_5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Modulo_5);
             this.Controls.Add(this.Modulo_3);
             this.Controls.Add(this.Modulo_2);
             this.Controls.Add(this.button1);
@@ -121,6 +133,7 @@ namespace Prueba2_ParcialPrimercorte
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Modulo_2;
         private System.Windows.Forms.Button Modulo_3;
+        private System.Windows.Forms.Button Modulo_5;
     }
 }
 
