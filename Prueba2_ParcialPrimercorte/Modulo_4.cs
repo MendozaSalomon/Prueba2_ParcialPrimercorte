@@ -16,14 +16,5 @@ namespace Prueba2_ParcialPrimercorte
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            contrario holi = new contrario();
-
-            string v = textBox1.Text;
-
-            label1.Text = holi.Invertir(v);
-        }
     }
 }
