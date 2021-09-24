@@ -36,9 +36,9 @@ namespace Prueba2_ParcialPrimercorte
             // 
             // flPalabra
             // 
-            this.flPalabra.Location = new System.Drawing.Point(210, 163);
+            this.flPalabra.Location = new System.Drawing.Point(12, 153);
             this.flPalabra.Name = "flPalabra";
-            this.flPalabra.Size = new System.Drawing.Size(465, 63);
+            this.flPalabra.Size = new System.Drawing.Size(870, 63);
             this.flPalabra.TabIndex = 0;
             // 
             // flFichasDeJuego

@@ -31,7 +31,7 @@ namespace Prueba2_ParcialPrimercorte
             flFichasDeJuego.Controls.Clear();
             flFichasDeJuego.Enabled = true;
             Oportunidades = 0;
-            Palabras = new string[] { "ahogado", "Ahorcado", "Flagelado", "Quemado" };
+            Palabras = new string[] { "azul aguamarina", "rosado intenso", "verde claro", "purpura oscuro" };
 
 
             Alfabeto = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ".ToCharArray();
@@ -125,7 +125,7 @@ namespace Prueba2_ParcialPrimercorte
             if (Ganaste)
             {
 
-                MessageBox.Show("GANASTE");
+                MessageBox.Show("ADIVINASTE MUY RAPIDO!");
             }
             if (!encontrado)
             {
@@ -133,7 +133,7 @@ namespace Prueba2_ParcialPrimercorte
                 Oportunidades = Oportunidades + 1;
 
 
-                if (Oportunidades == 8)
+                if (Oportunidades == 7)
                 {
 
 
