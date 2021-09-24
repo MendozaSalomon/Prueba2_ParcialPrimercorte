@@ -58,12 +58,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Seguro que has visto textos como "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón
- detrás del palenque de paja". Son "pangramas", textos que contienen todas las letras de un cierto alfabeto, quizá repetidas.
-
- Deberás crear un programa en el cual se estará escribiendo una frase y deberá indicar el momento en que la frase sea un pangrama. 
-Sólo deberás considerar las letras del alfabeto inglés (no te preocupes por las tildes, ni la eñe, entre otras), pero podrán aparecer 
-en mayúsculas o en minúsculas. Tan pronto como se complete el panorama el programa deberá mostrar un aviso.
- Para la validación deberá optimizar el código haciendo validación por código ascii</value>
+    <value>Seguro que has visto textos como "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja". 
+Son "pangramas", textos que contienen todas las letras de un cierto alfabeto, quizá repetidas. Deberás crear un programa en el cual se estará 
+escribiendo una frase y deberá indicar el momento en que la frase sea un pangrama. Sólo deberás considerar las letras del alfabeto inglés
+ (no te preocupes por las tildes, ni la eñe, entre otras), pero podrán aparecer en mayúsculas o en minúsculas. Tan pronto como se complete
+ el panorama el programa deberá mostrar un aviso. Para la validación deberá optimizar el código haciendo validación por código ascii</value>
   </data>
 </root>

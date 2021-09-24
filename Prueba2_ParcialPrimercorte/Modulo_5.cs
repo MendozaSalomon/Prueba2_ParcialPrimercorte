@@ -37,6 +37,11 @@ namespace Prueba2_ParcialPrimercorte
             };
             textBox2.Text = (pangrama ? "SI" : "NO");
         }
+
+        private void Modulo_5_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

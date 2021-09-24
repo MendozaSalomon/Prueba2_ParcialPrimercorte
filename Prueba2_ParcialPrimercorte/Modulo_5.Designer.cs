@@ -31,67 +31,69 @@ namespace Prueba2_ParcialPrimercorte
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Modulo_5));
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(315, 293);
+            this.button1.Location = new System.Drawing.Point(341, 293);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 23);
+            this.button1.Size = new System.Drawing.Size(140, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Verificar Pangrama";
+            this.button1.Text = "Verificar Pangrama\r\n";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(240, 216);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 71);
-            this.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(341, 371);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(361, 23);
+            this.label1.Location = new System.Drawing.Point(341, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "5- Pangramas";
+            this.label1.Size = new System.Drawing.Size(125, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Modulo 5- Pangramas";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 61);
+            this.label2.Location = new System.Drawing.Point(12, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(703, 105);
-            this.label2.TabIndex = 4;
+            this.label2.Size = new System.Drawing.Size(781, 75);
+            this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(254, 178);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(298, 91);
+            this.textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(357, 344);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.TabIndex = 4;
             // 
             // Modulo_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackgroundImage = global::Prueba2_ParcialPrimercorte.Properties.Resources._19;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Modulo_5";
             this.Text = "Modulo_5";
+            this.Load += new System.EventHandler(this.Modulo_5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,9 +102,9 @@ namespace Prueba2_ParcialPrimercorte
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

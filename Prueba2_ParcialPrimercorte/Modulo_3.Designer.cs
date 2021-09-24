@@ -58,12 +58,13 @@ namespace Prueba2_ParcialPrimercorte
             // 
             // Contador
             // 
+            this.Contador.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Contador.Location = new System.Drawing.Point(307, 237);
             this.Contador.Name = "Contador";
             this.Contador.Size = new System.Drawing.Size(155, 23);
             this.Contador.TabIndex = 2;
             this.Contador.Text = "Contar vocales y letras ";
-            this.Contador.UseVisualStyleBackColor = true;
+            this.Contador.UseVisualStyleBackColor = false;
             this.Contador.Click += new System.EventHandler(this.Contador_Click);
             // 
             // textBox1
@@ -85,6 +86,8 @@ namespace Prueba2_ParcialPrimercorte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackgroundImage = global::Prueba2_ParcialPrimercorte.Properties.Resources._19;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);

@@ -94,6 +94,8 @@ namespace Prueba2_ParcialPrimercorte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackgroundImage = global::Prueba2_ParcialPrimercorte.Properties.Resources._19;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
