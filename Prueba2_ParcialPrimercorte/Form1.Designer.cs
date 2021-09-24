@@ -37,6 +37,7 @@ namespace Prueba2_ParcialPrimercorte
             this.Modulo_3 = new System.Windows.Forms.Button();
             this.Modulo_5 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.Modulo_6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -117,6 +118,16 @@ namespace Prueba2_ParcialPrimercorte
             this.label3.Text = "Deberán realizar un programa con diferentes módulos, que presente un menú que per" +
     "mita ingresar a los siguientes módulos:";
             // 
+            // Modulo_6
+            // 
+            this.Modulo_6.Location = new System.Drawing.Point(512, 312);
+            this.Modulo_6.Name = "Modulo_6";
+            this.Modulo_6.Size = new System.Drawing.Size(75, 29);
+            this.Modulo_6.TabIndex = 8;
+            this.Modulo_6.Text = "Modulo 6";
+            this.Modulo_6.UseVisualStyleBackColor = true;
+            this.Modulo_6.Click += new System.EventHandler(this.Modulo_6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -124,6 +135,7 @@ namespace Prueba2_ParcialPrimercorte
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImage = global::Prueba2_ParcialPrimercorte.Properties.Resources._12;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Modulo_6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Modulo_5);
             this.Controls.Add(this.Modulo_3);
@@ -134,6 +146,7 @@ namespace Prueba2_ParcialPrimercorte
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,6 +162,7 @@ namespace Prueba2_ParcialPrimercorte
         private System.Windows.Forms.Button Modulo_3;
         private System.Windows.Forms.Button Modulo_5;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Modulo_6;
     }
 }
 

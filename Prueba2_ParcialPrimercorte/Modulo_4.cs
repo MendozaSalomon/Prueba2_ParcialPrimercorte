@@ -25,5 +25,20 @@ namespace Prueba2_ParcialPrimercorte
 
             label1.Text = holi.Invertir(v);
         }
+
+        private void Modulo_4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

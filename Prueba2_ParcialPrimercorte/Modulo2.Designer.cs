@@ -40,18 +40,20 @@ namespace Prueba2_ParcialPrimercorte
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(275, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 15);
+            this.label1.Size = new System.Drawing.Size(41, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Base";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(275, 150);
+            this.label2.Font = new System.Drawing.Font("Papyrus", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(261, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 15);
+            this.label2.Size = new System.Drawing.Size(71, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "Altura";
             // 
@@ -71,9 +73,11 @@ namespace Prueba2_ParcialPrimercorte
             // 
             // calcular
             // 
-            this.calcular.Location = new System.Drawing.Point(377, 230);
+            this.calcular.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.calcular.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.calcular.Location = new System.Drawing.Point(307, 222);
             this.calcular.Name = "calcular";
-            this.calcular.Size = new System.Drawing.Size(75, 23);
+            this.calcular.Size = new System.Drawing.Size(137, 49);
             this.calcular.TabIndex = 4;
             this.calcular.Text = "Calcular";
             this.calcular.UseVisualStyleBackColor = true;
@@ -84,14 +88,14 @@ namespace Prueba2_ParcialPrimercorte
             this.txtArea.AutoSize = true;
             this.txtArea.Location = new System.Drawing.Point(351, 295);
             this.txtArea.Name = "txtArea";
-            this.txtArea.Size = new System.Drawing.Size(38, 15);
+            this.txtArea.Size = new System.Drawing.Size(0, 15);
             this.txtArea.TabIndex = 5;
-            this.txtArea.Text = "label3";
             // 
             // Modulo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(732, 445);
             this.Controls.Add(this.txtArea);
             this.Controls.Add(this.calcular);
